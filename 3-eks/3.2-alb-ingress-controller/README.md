@@ -1,0 +1,3 @@
+### "Kubernetes cluster unreachable" error
+In case of "Kubernetes cluster unreachable: invalid configuration: no configuration has been provided, try setting KUBERNETES_MASTER environment variable" error we need to set environment variable KUBE_CONFIG_PATH to file kubeconfig_** created in module 3.1-cluster.
+Discussion on GitHub: https://github.com/terraform-aws-modules/terraform-aws-eks/issues/1234
